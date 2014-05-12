@@ -1,0 +1,12 @@
+Source: ros-hydro-baxter-description
+Section: misc
+Priority: extra
+Maintainer: Rethink Robotics Inc. <rsdk.support@rethinkrobotics.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin
+Homepage: http://www.rethinkrobotics.com/sdk
+Standards-Version: 3.9.2
+
+Package: ros-hydro-baxter-description
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, 
+Description: Description of Baxter Research Robot from Rethink Robotics. This package contains the URDF and meshes describing Baxter.
