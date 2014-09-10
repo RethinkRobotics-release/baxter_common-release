@@ -1,0 +1,12 @@
+Source: ros-groovy-baxter-core-msgs
+Section: misc
+Priority: extra
+Maintainer: Rethink Robotics Inc. <rsdk.support@rethinkrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-groovy-catkin, ros-groovy-geometry-msgs, ros-groovy-message-generation, ros-groovy-sensor-msgs, ros-groovy-std-msgs
+Homepage: http://www.rethinkrobotics.com/sdk
+Standards-Version: 3.9.2
+
+Package: ros-groovy-baxter-core-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-geometry-msgs, ros-groovy-message-runtime, ros-groovy-sensor-msgs, ros-groovy-std-msgs
+Description: Messages and Services required for communication with the Baxter Research Robot from Rethink Robotics.
