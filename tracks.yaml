@@ -8,13 +8,15 @@ tracks:
     - git-bloom-generate -y rosrelease :{ros_distro} --source upstream -i :{release_inc}
     - git-bloom-generate -y rosdebian --prefix release/:{ros_distro} :{ros_distro}
       -i :{release_inc}
+    - git-bloom-generate -y rosrpm --prefix release/:{ros_distro} :{ros_distro} -i
+      :{release_inc}
     devel_branch: master
     last_version: 1.0.0
     name: baxter_common
     patches: null
     release_inc: '0'
     release_repo_url: null
-    release_tag: v1.0.0
+    release_tag: v1.0.1
     ros_distro: groovy
     vcs_type: git
     vcs_uri: https://github.com/RethinkRobotics/baxter_common.git
