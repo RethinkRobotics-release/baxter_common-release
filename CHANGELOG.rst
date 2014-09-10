@@ -1,0 +1,20 @@
+1.0.0 (2014-5-1)
+---------------------------------
+- Updates baxter_core_msgs IK solver service file adding seeding options
+- Updates baxter_core_msgs JointCommand message adding raw joint position control mode option
+- Adds URDF accelerometer and display links/joints
+- Adds cameras, head display, hand IR range sensor, and sonar Gazebo plugins to URDF
+- Adds second generation pnuematic gripper meshes
+- Adds electric and suction gripper assembly meshes
+- Renames gripper meshes intelligibly
+- Removes deprecated core list and removal service
+
+0.7.0 (2013-11-21)
+---------------------------------
+- Removal of baxter_msgs in favor of baxter_core_msgs (Baxter communication) and baxter_maintenance_msgs (maintenance routines). This allowed for the removal of the implemented proxy for direct robot communication decreasing latency significantly.
+- Gazebo and ros_control URDF tags added.
+- Adds low poly meshes for pedestal and torso collision descriptions for MoveIt!
+- Adds electric and suction gripper meshes
+- Adds <left/right>_gripper_base link/joint - necessary for object/gripper mass customization.
+- Updates URDF effector fields to reflect robot maximums.
+- Fixes head origin bug. Head now rotates correctly when visualized.
