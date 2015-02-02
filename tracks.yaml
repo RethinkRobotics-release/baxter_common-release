@@ -38,7 +38,7 @@ tracks:
     patches: null
     release_inc: '1'
     release_repo_url: null
-    release_tag: v1.0.1
+    release_tag: v1.1.0
     ros_distro: hydro
     vcs_type: git
     vcs_uri: https://github.com/RethinkRobotics/baxter_common.git
