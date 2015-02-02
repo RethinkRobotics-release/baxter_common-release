@@ -1,3 +1,28 @@
+## baxter_common (indigo) - 1.1.0-1
+
+The packages in the `baxter_common` repository were released into the `indigo` distro by running `/usr/local/bin/bloom-release --rosdistro indigo --track indigo baxter_common --edit` on `Mon, 02 Feb 2015 22:32:46 -0000`
+
+These packages were released:
+- `baxter_common`
+- `baxter_core_msgs`
+- `baxter_description`
+- `baxter_maintenance_msgs`
+
+Version of package(s) in repository `baxter_common`:
+- upstream repository: https://github.com/RethinkRobotics/baxter_common.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `1.1.0-0`
+- new version: `1.1.0-1`
+
+Versions of tools used:
+- bloom version: `0.5.16`
+- catkin_pkg version: `0.2.6`
+- rosdep version: `0.11.1`
+- rosdistro version: `0.4.0`
+- vcstools version: `0.1.36`
+
+
 ## baxter_common (indigo) - 1.1.0-0
 
 The packages in the `baxter_common` repository were released into the `indigo` distro by running `/usr/local/bin/bloom-release --rosdistro indigo --track indigo baxter_common --edit` on `Mon, 02 Feb 2015 22:01:15 -0000`
