@@ -1,3 +1,28 @@
+## baxter_common (hydro) - 1.1.1-0
+
+The packages in the `baxter_common` repository were released into the `hydro` distro by running `/usr/bin/bloom-release --rosdistro hydro --track hydro baxter_common --edit` on `Mon, 18 May 2015 17:55:04 -0000`
+
+These packages were released:
+- `baxter_common`
+- `baxter_core_msgs`
+- `baxter_description`
+- `baxter_maintenance_msgs`
+
+Version of package(s) in repository `baxter_common`:
+- upstream repository: https://github.com/RethinkRobotics/baxter_common.git
+- release repository: https://github.com/RethinkRobotics-release/baxter_common-release.git
+- rosdistro version: `1.1.0-0`
+- old version: `1.1.0-0`
+- new version: `1.1.1-0`
+
+Versions of tools used:
+- bloom version: `0.5.20`
+- catkin_pkg version: `0.2.8`
+- rosdep version: `0.11.2`
+- rosdistro version: `0.4.2`
+- vcstools version: `0.1.36`
+
+
 ## baxter_common (indigo) - 1.1.1-0
 
 The packages in the `baxter_common` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --rosdistro indigo --track indigo baxter_common --edit` on `Mon, 18 May 2015 15:30:45 -0000`
