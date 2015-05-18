@@ -1,0 +1,12 @@
+Source: ros-indigo-baxter-common
+Section: misc
+Priority: extra
+Maintainer: Rethink Robotics Inc. <rsdk.support@rethinkrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://sdk.rethinkrobotics.com
+Standards-Version: 3.9.2
+
+Package: ros-indigo-baxter-common
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-baxter-core-msgs, ros-indigo-baxter-description, ros-indigo-baxter-maintenance-msgs
+Description: URDF, meshes, and custom messages describing the Baxter Research Robot from Rethink Robotics.
