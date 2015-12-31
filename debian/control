@@ -1,0 +1,12 @@
+Source: ros-indigo-baxter-core-msgs
+Section: misc
+Priority: extra
+Maintainer: Rethink Robotics Inc. <rsdk.support@rethinkrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-geometry-msgs, ros-indigo-message-generation, ros-indigo-sensor-msgs, ros-indigo-std-msgs
+Homepage: http://sdk.rethinkrobotics.com
+Standards-Version: 3.9.2
+
+Package: ros-indigo-baxter-core-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-geometry-msgs, ros-indigo-message-runtime, ros-indigo-sensor-msgs, ros-indigo-std-msgs
+Description: Messages and Services required for communication with the Baxter Research Robot from Rethink Robotics.
