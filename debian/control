@@ -1,0 +1,12 @@
+Source: ros-indigo-rethink-ee-description
+Section: misc
+Priority: extra
+Maintainer: Rethink Robotics Inc. <rsdk.support@rethinkrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://sdk.rethinkrobotics.com
+Standards-Version: 3.9.2
+
+Package: ros-indigo-rethink-ee-description
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, 
+Description: Description of End Effector for Robots from Rethink Robotics. This package contains the URDF and meshes describing these end effectors.
